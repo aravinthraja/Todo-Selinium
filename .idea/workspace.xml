@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da611862-d99a-4bf8-b997-90652d8c8663" name="Default" comment="">
+    <list default="true" id="da611862-d99a-4bf8-b997-90652d8c8663" name="Default" comment="sample test has been added ``">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__info_cukes_cucumber_core_1_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__info_cukes_cucumber_java8_1_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__info_cukes_cucumber_java_1_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber-usage.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/cucumber.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/stepdef/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/stepdef/LoginPage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -111,11 +119,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
-              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -153,12 +161,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cucumber-usage.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cucumber-usage.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/cucumber-usage.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1507930574000" expanded="true" signature="1393:1449" ph="{&quot;duration&quot;: 0.000065152...}" />
+                <marker date="1507930574000" expanded="true" signature="1393:1459" ph="[...]" />
+                <marker date="1507930574000" expanded="true" signature="1393:1467" ph="{&quot;name&quot;: &quot;I run a failing step&quot;...}" />
+                <marker date="1507930574000" expanded="true" signature="1393:1473" ph="[...]" />
+                <marker date="1507930574000" expanded="true" signature="1393:1477" ph="{&quot;source&quot;: &quot;^I run a failing step$&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,9 +180,18 @@
       <file leaf-file-name="cucumber.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/target/cucumber.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
+              <folding>
+                <marker date="1507930574000" expanded="true" signature="0:1936" ph="[...]" />
+                <marker date="1507930574000" expanded="true" signature="4:1934" ph="{&quot;name&quot;: &quot;Gradle Cucumber integration&quot;...}" />
+                <marker date="1507930574000" expanded="true" signature="202:1769" ph="[...]" />
+                <marker date="1507930574000" expanded="true" signature="210:1763" ph="{&quot;name&quot;: &quot;Just a failing scenario&quot;...}" />
+                <marker date="1507930574000" expanded="true" signature="446:1755" ph="[...]" />
+                <marker date="1507930574000" expanded="true" signature="1516:1533" ph="{&quot;status&quot;: &quot;skipped&quot;...}" />
+                <marker date="1507930574000" expanded="true" signature="1516:1745" ph="{&quot;name&quot;: &quot;I see success message&quot;...}" />
+                <marker date="1507930574000" expanded="true" signature="1624:1701" ph="{&quot;location&quot;: &quot;LoginPage.i_see_success_message()&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -487,8 +510,8 @@
         <option value="$PROJECT_DIR$/target/cucumber.json" />
         <option value="$PROJECT_DIR$/cucumber.json" />
         <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginPage.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdef/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -1086,7 +1109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507928991865</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="sample test has been added ``">
+      <created>1507929947503</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507929947503</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1142,7 +1172,8 @@
     <MESSAGE value="Added Cucumber run" />
     <MESSAGE value="sample text has been added" />
     <MESSAGE value="sample test has been added" />
-    <option name="LAST_COMMIT_MESSAGE" value="sample test has been added" />
+    <MESSAGE value="sample test has been added ``" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample test has been added ``" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1281,22 +1312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/runner/TestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1315,10 +1330,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
+          <folding>
+            <marker date="1507930574000" expanded="true" signature="0:1936" ph="[...]" />
+            <marker date="1507930574000" expanded="true" signature="4:1934" ph="{&quot;name&quot;: &quot;Gradle Cucumber integration&quot;...}" />
+            <marker date="1507930574000" expanded="true" signature="202:1769" ph="[...]" />
+            <marker date="1507930574000" expanded="true" signature="210:1763" ph="{&quot;name&quot;: &quot;Just a failing scenario&quot;...}" />
+            <marker date="1507930574000" expanded="true" signature="446:1755" ph="[...]" />
+            <marker date="1507930574000" expanded="true" signature="1516:1533" ph="{&quot;status&quot;: &quot;skipped&quot;...}" />
+            <marker date="1507930574000" expanded="true" signature="1516:1745" ph="{&quot;name&quot;: &quot;I see success message&quot;...}" />
+            <marker date="1507930574000" expanded="true" signature="1624:1701" ph="{&quot;location&quot;: &quot;LoginPage.i_see_success_message()&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/target/cucumber-usage.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507930574000" expanded="true" signature="1393:1449" ph="{&quot;duration&quot;: 0.000065152...}" />
+            <marker date="1507930574000" expanded="true" signature="1393:1459" ph="[...]" />
+            <marker date="1507930574000" expanded="true" signature="1393:1467" ph="{&quot;name&quot;: &quot;I run a failing step&quot;...}" />
+            <marker date="1507930574000" expanded="true" signature="1393:1473" ph="[...]" />
+            <marker date="1507930574000" expanded="true" signature="1393:1477" ph="{&quot;source&quot;: &quot;^I run a failing step$&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdef/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,80 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# new feature"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Just a failing scenario",
+        "description": "",
+        "id": "gradle-cucumber-integration;just-a-failing-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122505491,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Just a failing scenario",
+            "match": {
+              "location": "LoginPage.i_am_on_Home_Page_of()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49620,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I run a failing step",
+            "match": {
+              "location": "LoginPage.i_enter_message_as()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51595,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I found this",
+            "match": {
+              "location": "LoginPage.i_found_this()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45392,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see success message",
+            "match": {
+              "location": "LoginPage.i_see_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Gradle Cucumber integration",
+    "description": "",
+    "id": "gradle-cucumber-integration",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

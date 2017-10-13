@@ -25,7 +25,7 @@ public class LoginPage {
     @When("^I found this$")
     public void i_found_this() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        System.out.println("i am good");
     }
 
     @Then("^I see success message$")

@@ -1,0 +1,74 @@
+[
+  {
+    "source": "^Just a failing scenario$",
+    "steps": [
+      {
+        "name": "Just a failing scenario",
+        "aggregatedDurations": {
+          "average": 0.122505491,
+          "median": 0.122505491
+        },
+        "durations": [
+          {
+            "duration": 0.122505491,
+            "location": "login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see success message$",
+    "steps": [
+      {
+        "name": "I see success message",
+        "aggregatedDurations": {
+          "average": 0.000045392,
+          "median": 0.000045392
+        },
+        "durations": [
+          {
+            "duration": 0.000045392,
+            "location": "login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I found this$",
+    "steps": [
+      {
+        "name": "I found this",
+        "aggregatedDurations": {
+          "average": 0.000051595,
+          "median": 0.000051595
+        },
+        "durations": [
+          {
+            "duration": 0.000051595,
+            "location": "login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I run a failing step$",
+    "steps": [
+      {
+        "name": "I run a failing step",
+        "aggregatedDurations": {
+          "average": 0.00004962,
+          "median": 0.00004962
+        },
+        "durations": [
+          {
+            "duration": 0.00004962,
+            "location": "login.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
