@@ -9,14 +9,13 @@ import stepdef.LoginPage;
  * Created by aravinth on 11/10/17.
  */
 @RunWith(Cucumber.class)
-
-@CucumberOptions(  monochrome = true,
-        tags = "@tags",
-        features = "src/test/resources/features/",
-        format = { "pretty","html: cucumber-html-reports",
-                "json: cucumber-html-reports/cucumber.json" },
-        dryRun = false,
-        glue = "step.def" )
+@CucumberOptions(features = {"src/test/resources/features"},
+        plugin = { "html:target/cucumber-html-report",
+        "junit:target/cucumber-junit.xml",
+        "json:arget/cucumber.json",
+        "pretty:target/cucumber-pretty.txt",
+        "usage:target/cucumber-usage.json"
+})
 public class TestRunner {
 
 }
