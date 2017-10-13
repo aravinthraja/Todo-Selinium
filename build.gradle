@@ -13,7 +13,7 @@ task cucumber() {
         javaexec {
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--plugin', 'json:cucumber.json', '--glue', 'stepdef', 'src/test/resources/features']
+            args = ['--plugin', 'json:target/cucumber.json', '--glue', 'stepdef', 'src/test/resources/features']
         }
     }
 }

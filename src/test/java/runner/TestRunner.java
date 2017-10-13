@@ -12,7 +12,7 @@ import stepdef.LoginPage;
 @CucumberOptions(features = {"src/test/resources/features"},
         plugin = { "html:target/cucumber-html-report",
         "junit:target/cucumber-junit.xml",
-        "json:arget/cucumber.json",
+        "json:target/cucumber.json",
         "pretty:target/cucumber-pretty.txt",
         "usage:target/cucumber-usage.json"
 })
