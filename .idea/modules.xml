@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Todoselinium.iml" filepath="$PROJECT_DIR$/.idea/modules/Todoselinium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Todoselinium_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Todoselinium_main.iml" group="Todoselinium" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Todoselinium_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Todoselinium_test.iml" group="Todoselinium" />
+    </modules>
+  </component>
+</project>
