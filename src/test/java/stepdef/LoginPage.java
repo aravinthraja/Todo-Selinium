@@ -4,7 +4,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class Contact_Form {
+public class LoginPage {
   // public static WebDriver driver;
 
     @Given("^Just a failing scenario$")
