@@ -1,17 +1,53 @@
 [
   {
+    "source": "^i see fast$",
+    "steps": [
+      {
+        "name": "i see fast",
+        "aggregatedDurations": {
+          "average": 0.000060696,
+          "median": 0.000060696
+        },
+        "durations": [
+          {
+            "duration": 0.000060696,
+            "location": "createaccount.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "source": "^Just a failing scenario$",
     "steps": [
       {
         "name": "Just a failing scenario",
         "aggregatedDurations": {
-          "average": 0.122505491,
-          "median": 0.122505491
+          "average": 0.000171236,
+          "median": 0.000171236
         },
         "durations": [
           {
-            "duration": 0.122505491,
+            "duration": 0.000171236,
             "location": "login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^i am good$",
+    "steps": [
+      {
+        "name": "i am good",
+        "aggregatedDurations": {
+          "average": 0.111987355,
+          "median": 0.111987355
+        },
+        "durations": [
+          {
+            "duration": 0.111987355,
+            "location": "createaccount.feature:7"
           }
         ]
       }
@@ -23,13 +59,13 @@
       {
         "name": "I see success message",
         "aggregatedDurations": {
-          "average": 0.000045392,
-          "median": 0.000045392
+          "average": 0.000059116,
+          "median": 0.000059116
         },
         "durations": [
           {
-            "duration": 0.000045392,
-            "location": "login.feature:9"
+            "duration": 0.000059116,
+            "location": "login.feature:10"
           }
         ]
       }
@@ -41,13 +77,35 @@
       {
         "name": "I found this",
         "aggregatedDurations": {
-          "average": 0.000051595,
-          "median": 0.000051595
+          "average": 0.00008187,
+          "median": 0.00008187
         },
         "durations": [
           {
-            "duration": 0.000051595,
+            "duration": 0.000086225,
             "location": "login.feature:8"
+          },
+          {
+            "duration": 0.000077515,
+            "location": "login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^i am bad",
+    "steps": [
+      {
+        "name": "i am bad",
+        "aggregatedDurations": {
+          "average": 0.000055217,
+          "median": 0.000055217
+        },
+        "durations": [
+          {
+            "duration": 0.000055217,
+            "location": "createaccount.feature:8"
           }
         ]
       }
@@ -59,12 +117,12 @@
       {
         "name": "I run a failing step",
         "aggregatedDurations": {
-          "average": 0.00004962,
-          "median": 0.00004962
+          "average": 0.000096275,
+          "median": 0.000096275
         },
         "durations": [
           {
-            "duration": 0.00004962,
+            "duration": 0.000096275,
             "location": "login.feature:7"
           }
         ]

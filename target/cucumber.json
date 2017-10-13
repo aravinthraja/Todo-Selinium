@@ -13,6 +13,72 @@
     "line": 4,
     "elements": [
       {
+        "line": 6,
+        "name": "A scenario",
+        "description": "",
+        "id": "a-description;a-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 111987355,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i am good",
+            "match": {
+              "location": "CreateAccount.i_am_good()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55217,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i am bad",
+            "match": {
+              "location": "CreateAccount.i_am_bad()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60696,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "i see fast",
+            "match": {
+              "location": "CreateAccount.i_see_fast()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "A description",
+    "description": "",
+    "id": "a-description",
+    "keyword": "Feature",
+    "uri": "createaccount.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# new feature"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
         "line": 5,
         "name": "Just a failing scenario",
         "description": "",
@@ -22,7 +88,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122505491,
+              "duration": 171236,
               "status": "passed"
             },
             "line": 6,
@@ -34,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 49620,
+              "duration": 96275,
               "status": "passed"
             },
             "line": 7,
@@ -46,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 51595,
+              "duration": 86225,
               "status": "passed"
             },
             "line": 8,
@@ -58,10 +124,22 @@
           },
           {
             "result": {
-              "duration": 45392,
+              "duration": 77515,
               "status": "passed"
             },
             "line": 9,
+            "name": "I found this",
+            "match": {
+              "location": "LoginPage.i_found_this()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59116,
+              "status": "passed"
+            },
+            "line": 10,
             "name": "I see success message",
             "match": {
               "location": "LoginPage.i_see_success_message()"
