@@ -1,6 +1,5 @@
-package stepdef;
+package step.def;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -26,10 +25,9 @@ public class LoginPage {
     @Then("^I see success message$")
     public void i_see_success_message()  {
         // Write code here that turns the phrase above into concrete actions
-        // String status = driver.findElement(By.xpath("//*[@id='content']/div/div[2]/div/div/div")).getAttribute("class");
+       // String status = driver.findElement(By.xpath("//*[@id='content']/div/div[2]/div/div/div")).getAttribute("class");
         System.out.println("i am good");
         //assert(true);
 
     }
-
 }

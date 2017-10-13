@@ -3,16 +3,20 @@ package runner;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
+import stepdef.LoginPage;
 
 /**
  * Created by aravinth on 11/10/17.
  */
-@CucumberOptions(features = {"src/test/resources/features"},glue = {"src/test/java/stepdef"}, plugin = { "html:target/cucumber-html-report",
-        "junit:target/cucumber-junit.xml",
-        "json:target/cucumber.json",
-        "pretty:target/cucumber-pretty.txt",
-        "usage:target/cucumber-usage.json"
-})
 @RunWith(Cucumber.class)
+
+@CucumberOptions(  monochrome = true,
+        tags = "@tags",
+        features = "src/test/resources/features/",
+        format = { "pretty","html: cucumber-html-reports",
+                "json: cucumber-html-reports/cucumber.json" },
+        dryRun = false,
+        glue = "step.def" )
 public class TestRunner {
+
 }
