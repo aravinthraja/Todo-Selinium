@@ -1,10 +1,10 @@
-# new feature
-# Tags: optional
-    
-Feature: Gradle Cucumber integration
-Scenario: Just a failing scenario
-Given Just a failing scenario
-When I run a failing step
-And I found this
-And I found this
-Then I see success message
+Feature: Login Action
+
+Scenario: Successful Login with Valid Credentials
+	Given User is on Home Page
+	When User Navigate to LogIn Page
+	And User enters "10@123.com" and "123456"
+	Then Message displayed Login Successfully
+Scenario: Successful LogOut
+	When User LogOut from the Application
+	Then Message displayed LogOut Successfully
