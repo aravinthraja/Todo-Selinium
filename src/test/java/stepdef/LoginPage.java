@@ -26,6 +26,7 @@ public class LoginPage {
     public void user_is_on_Home_Page() throws Throwable {
         System.out.println("launching firefox browser");
 
+        System.setProperty("webdriver.gecko.driver", "./geckodriver");
         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
         FirefoxOptions options = new FirefoxOptions();
 
