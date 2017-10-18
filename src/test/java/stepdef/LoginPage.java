@@ -7,6 +7,7 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
@@ -25,18 +26,24 @@ public class LoginPage {
     @Given("^User is on Home Page$")
     public void user_is_on_Home_Page() throws Throwable {
         System.out.println("launching firefox browser");
+//
+//        System.setProperty("webdriver.gecko.driver", "./geckodriver");
+//        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+//        FirefoxOptions options = new FirefoxOptions();
+//
+//        options.addPreference("log", "{level: trace}");
+//
+//        capabilities.setCapability("marionette", true);
+//        capabilities.setCapability("moz:firefoxOptions", options);
+//
+//        driver = new FirefoxDriver(capabilities);
 
+        FirefoxBinary firefoxBinary = new FirefoxBinary();
+        firefoxBinary.addCommandLineOptions("--headless");
         System.setProperty("webdriver.gecko.driver", "./geckodriver");
-        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-        FirefoxOptions options = new FirefoxOptions();
-
-        options.addPreference("log", "{level: trace}");
-
-        capabilities.setCapability("marionette", true);
-        capabilities.setCapability("moz:firefoxOptions", options);
-
-
-        driver = new FirefoxDriver(capabilities);
+        FirefoxOptions firefoxOptions = new FirefoxOptions();
+        firefoxOptions.setBinary(firefoxBinary);
+         driver = new FirefoxDriver(firefoxOptions);
         if(driver!=null)
             driver.navigate().to("https://my.setmore.com");
 
